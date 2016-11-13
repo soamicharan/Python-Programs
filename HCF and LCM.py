@@ -1,0 +1,10 @@
+big=int(input("Enter big number\n"))
+small=int(input("Enter small number\n"))
+a=big
+b=small
+while big%small!=0:
+    small=big%small
+    big=small
+print("HCF=",small)
+lcm=(a*b)/small
+print("LCM=",lcm)
